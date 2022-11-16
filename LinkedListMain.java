@@ -5,15 +5,16 @@ public class LinkedListMain {
 
 		LinkedList linkedlist = new LinkedList();
 
+		System.out.println("LINKED LIST");
+
 		linkedlist.addLast(56);
 		linkedlist.display();
-		linkedlist.addFirst(30);
 		linkedlist.addLast(30);
 		linkedlist.display();
-		linkedlist.addFirst(56);
 		linkedlist.addLast(70);
 		linkedlist.display();
+		linkedlist.insertAtSpecificIndex(1,30);
+		linkedlist.display();
 	}
-
 }
 

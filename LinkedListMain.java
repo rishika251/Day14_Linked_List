@@ -19,6 +19,10 @@ public class LinkedListMain {
 		linkedlist.display();
 		linkedlist.deleteFirst();
 		linkedlist.display();
+		System.out.println("Searched Element");
+		linkedlist.search(30);
+		linkedlist.display();
 	}
+	
 }
 

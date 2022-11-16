@@ -13,6 +13,8 @@ public class LinkedListMain {
 		linkedlist.display();
 		linkedlist.addLast(70);
 		linkedlist.display();
+		linkedlist.deleteFirst();
+		System.out.println("Last Element Deleted");
 		linkedlist.insertAtSpecificIndex(1,30);
 		linkedlist.display();
 		linkedlist.deleteFirst();

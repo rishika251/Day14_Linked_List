@@ -9,18 +9,14 @@ public class LinkedListMain {
 
 		linkedlist.addLast(56);
 		linkedlist.display();
-		linkedlist.addLast(30);
-		linkedlist.display();
 		linkedlist.addLast(70);
 		linkedlist.display();
-		linkedlist.deleteFirst();
-		System.out.println("Last Element Deleted");
-		linkedlist.insertAtSpecificIndex(1,30);
-		linkedlist.display();
-		linkedlist.deleteFirst();
+		linkedlist.insertAtSpecificIndex(1, 30);
 		linkedlist.display();
 		System.out.println("Searched Element");
 		linkedlist.search(30);
+		System.out.println("Inserting Element");
+		linkedlist.insertAtSpecificIndex(2, 40);
 		linkedlist.display();
 	}
 	
